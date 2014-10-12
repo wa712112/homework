@@ -30,7 +30,7 @@
 	width: 510px;
 	float:left;
 }
-.left h1{
+.left h2{
 	font-size: 30px;
 	color: #1E90FF;
 	font-family:Comic Sans MS;
@@ -51,30 +51,29 @@
 	list-style: none;
 	float: left;
 }
-.footer h2{
+.footer h3{
 	font-size: 20px;
+	
+}
+.footer p{
+	font-size: 12px;
+	text-align: left;
 }
 .footer-left{
 	width: 260px;
 	position: absolute;
-	left: 5px;
-	vertical-align : middle;
-	text-align: center;
+	left: 5px;	
 }
 .mid{
 	width: 260px;
 	position: absolute;
-	left: 270px;
-	vertical-align : middle;
-	text-align: center;
+	left: 270px;	
 }
 .footer-right{
 	width: 260px;
 	position: absolute;
-	right: 5px;
-	vertical-align : middle;
-	text-align: center;
+	right: 5px;	
 }
 .clear{
-  clear:both
+	clear:both
 }
