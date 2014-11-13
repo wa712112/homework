@@ -251,6 +251,9 @@ body{
 	line-height: 10px;
 
 }
+.bottom-top li a:hover{
+	text-decoration: underline;
+}
 .bottom-bottom p{
 	font-family: arial;
 	font-size: 28px;
