@@ -267,6 +267,9 @@ body{
 	font-size: 14px; 
 	color: #0099FF;
 }
+.clear{
+	clear:both;
+}
 .footer{ 
 	height:100px;
 	margin-top: 10px; 
