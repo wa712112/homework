@@ -185,24 +185,39 @@ table {
 .category{
 	background: url(../images/stu.png) no-repeat;
 	padding-left: 20px;
-	height:30px;
+	height:40px;
 }
 .link{
 	background: url(../images/dot.png) no-repeat;
-	margin-top:10px; 
+	margin-top:30px; 
 }
 .link a{
 	padding-left: 16px;
-	font-size: 9px;
+	font-size: 16px;
 	color:#000;
 	display: block;
-	width: 180px;
+	width: 200px;
 	height: 30px;
 	text-decoration: none;
 
 }
 .link a:hover{
 	color:orange;
+}
+.more{
+	margin-bottom:20px; 
+}
+.more a{
+	background: url(../images/line.png) 100% 100% no-repeat;
+	text-decoration: none;
+	color: #000;
+	display: block;
+	height:30px;
+	text-align: right;
+	font-size: 14px;
+}
+.more a:hover{
+	text-decoration: underline;
 }
 .clear{
   clear:both;
