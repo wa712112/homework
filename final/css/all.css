@@ -1,0 +1,178 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.wrap{
+	width: 958px;
+	margin: auto;
+	font-family:Microsoft JhengHei;
+
+}
+.header{
+	margin-top: 20px;
+	height: 90px;
+	background: url(../images/bg.png) ;
+	background-size: 100% 100% ;
+	background-repeat: no-repeat;
+}
+.logo a{
+	width: 600px;
+	height: 70px;	
+	font-size: 70px;
+	display:block;
+	text-decoration: none;
+	color:#A42D00;
+	font-weight: bold;
+	background: url(../images/logo.) 90% 50% no-repeat ;
+	float:left;
+	margin-right: 30px;
+}
+.login {
+	padding-top:13px;
+	float:right;
+	
+	font-size: 20px;
+}
+
+.login a{
+	line-height: 70px;
+	font-size: 20px;
+	color:#A42D00;
+	text-decoration: none;
+}
+.login a:hover{
+
+	color:#880000;
+	text-decoration: underline;
+}
+ul, li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.tab_left {
+	float:left;
+	width: 75px;
+	height: 316px;
+	
+}
+.tab_container {
+	float:left;
+	margin-left:6px;
+	margin-right:2px;
+	width: 800px;
+	height: 316px;
+	background: #e1e1e1;
+	overflow: hidden;
+}
+.tab_right {
+	float:left;
+	width: 75px;
+	height: 316px;
+	
+}
+.tab_content{
+	position: relative;
+	width: 800px;
+	
+	height: 316px;
+}
+.tab_context{
+	position: absolute;
+	
+	width: 760px;	/* .abgne_tip_gallery_block 的寬 - .caption 的左右 padding */
+	padding-right: 20px;
+	padding-left: 20px;
+	top: 265px; 
+	padding-bottom: 25px;
+	cursor: pointer;
+	color: #fff;
+	background: hsla(240, 0%, 50%, 0.6) ;
+} 
+.tab_context h2{
+	font-size: 20px;
+	color: #fc6; 
+	padding: 15px;
+}
+.tab_context h3{
+	font-size: 15px;
+	color: #fc6; 
+	
+}
+ul.tabs_l li {
+	float: left;
+	height: 75px;
+	width: 75px;
+	padding: 2px;
+	overflow: hidden;
+	
+	background: #fff;
+}
+ul.tabs_l li a {
+	display: block;
+	color: #000;
+	text-decoration: none;
+}
+ul.tabs_l li.active  {
+	background: #000;
+	
+}
+ul.tabs_r li {
+	float: left;
+	height: 75px;
+	width: 75px;
+	padding: 2px;
+	overflow: hidden;
+	
+	background: #fff;
+}
+ul.tabs_r li a {
+	display: block;
+	color: #000;
+	text-decoration: none;
+}
+ul.tabs_r li.active  {
+	background: #000;
+	
+}
+
+
