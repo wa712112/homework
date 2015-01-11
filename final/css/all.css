@@ -25,6 +25,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+
 }
 ol, ul {
 	list-style: none;
@@ -41,59 +42,53 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-.wrap{
-	width: 958px;
-	margin: auto;
-	font-family:Microsoft JhengHei;
+body{
+	background: url(../images/bg.png)  no-repeat ;
 
+}
+.wrap{
+	width: 960px;	
+	margin:0 auto;
+	font-family:Microsoft JhengHei;
+	position: relative;
+	
 }
 .header{
 	margin-top: 20px;
 	height: 90px;
-	background: url(../images/bg.png) ;
 	background-size: 100% 100% ;
 	background-repeat: no-repeat;
+	position: absolute;
+	top: 0px;
 }
-.logo a{
-	width: 600px;
-	height: 70px;	
+.logo{
+	width: 510px;
+	height: 90px;
+}
+.logo a{	
 	font-size: 70px;
 	display:block;
 	text-decoration: none;
 	color:#A42D00;
 	font-weight: bold;
-	background: url(../images/logo.) 90% 50% no-repeat ;
-	float:left;
+	background: url(../images/logo.png) 50% 50% no-repeat ;
+	float:middle;
 	margin-right: 30px;
-}
-.login {
-	padding-top:13px;
-	float:right;
-	
-	font-size: 20px;
-}
-
-.login a{
-	line-height: 70px;
-	font-size: 20px;
-	color:#A42D00;
-	text-decoration: none;
-}
-.login a:hover{
-
-	color:#880000;
-	text-decoration: underline;
+	text-indent:-9999px;
 }
 ul, li {
 	margin: 0;
 	padding: 0;
 	list-style: none;
 }
+.content_top{
+	position: absolute;
+	top:110px;
+}
 .tab_left {
 	float:left;
 	width: 75px;
-	height: 316px;
-	
+	height: 316px;	
 }
 .tab_container {
 	float:left;
@@ -107,72 +102,212 @@ ul, li {
 .tab_right {
 	float:left;
 	width: 75px;
-	height: 316px;
-	
+	height: 316px;	
 }
 .tab_content{
 	position: relative;
-	width: 800px;
-	
+	width: 800px;	
 	height: 316px;
 }
 .tab_context{
-	position: absolute;
-	
-	width: 760px;	/* .abgne_tip_gallery_block 的寬 - .caption 的左右 padding */
+	position: absolute;	
+	width: 760px;	
 	padding-right: 20px;
 	padding-left: 20px;
 	top: 265px; 
-	padding-bottom: 25px;
-	cursor: pointer;
+	padding-bottom: 25px;	
 	color: #fff;
-	background: hsla(240, 0%, 50%, 0.6) ;
+	background: hsla(240, 0%, 30%, 0.6) ;
+	background: url(../images/descbg.png) ;
 } 
+.desc{
+	width: 650px;
+	line-height: 25px;
+}
 .tab_context h2{
-	font-size: 20px;
+	font-size: 25px;
 	color: #fc6; 
 	padding: 15px;
 }
 .tab_context h3{
 	font-size: 15px;
-	color: #fc6; 
-	
+	color: #fc6; 	
+}
+.vote{
+	width: 80px;
+	height: 55px;
+	background: url(../images/voteme.png) no-repeat;
+	color: #000;
+	position: absolute;
+	right:15px;
+	bottom:30px;
+	padding: 8px;
+	font-size: 18px;
+	border-radius: 10px;
+	text-align:center;
+	cursor: pointer;
 }
 ul.tabs_l li {
 	float: left;
 	height: 75px;
 	width: 75px;
 	padding: 2px;
-	overflow: hidden;
-	
+	overflow: hidden;	
 	background: #fff;
 }
 ul.tabs_l li a {
 	display: block;
 	color: #000;
 	text-decoration: none;
+	cursor: default;
 }
 ul.tabs_l li.active  {
-	background: #000;
-	
+	background: #000;	
 }
 ul.tabs_r li {
 	float: left;
 	height: 75px;
 	width: 75px;
 	padding: 2px;
-	overflow: hidden;
-	
+	overflow: hidden;	
 	background: #fff;
 }
 ul.tabs_r li a {
 	display: block;
 	color: #000;
 	text-decoration: none;
+	cursor: default;
 }
 ul.tabs_r li.active  {
-	background: #000;
+	background: #000;	
+}
+.content_bottom{
+	width: 960px;
+	position: absolute;
+	top:460px;
+	margin-left: 5px;
+
+}
+.left{
+	width: 870px;
+	float: left;
+}
+.left li{
+	margin-top: 5px;
+	height: 45px;
+}
+.left img{
+	border-radius: 50%;
+	height: 45px;
+	width: 45px;
+	margin-left: 90px;
+	position:absolute;
+}
+.right{
+	margin-left: 1px;
+	width: 85px;
+	float:right;
+	text-align: right;
+	line-height: 45px;
+}
+.right li{
+	margin-top: 5px;
+	height: 45px;
 	
 }
+.right p{
+	font-size: 18px;
+	font-family: Comic Sans MS;
+}
+.left li.one{
+	background: url(../images/path1.png) no-repeat;
+}
+.left li.two{
+	background: url(../images/path2.png) no-repeat;
+}
+.left li.three{
+	background: url(../images/path3.png) no-repeat;
+}
+.left li.four{
+	background: url(../images/path4.png) no-repeat;
+}
+.left li.five{
+	background: url(../images/path5.png) no-repeat;
+}
+.left li.six{
+	background: url(../images/path6.png) no-repeat;
+}
+.left li.seven{
+	background: url(../images/path7.png) no-repeat;
+}
+.left li.eight{
+	background: url(../images/path8.png) no-repeat;
+}
+.clear{
+  clear:both;
+}
+.votepage{
+	position: fixed;
+	left:35%;
+	top:20%;
+	background: url(../images/votebg.png);
+	width: 300px;
+	height: 440px;
+	padding-left: 50px;
+	padding-right: 50px;
+	line-height: 40px;
+	box-shadow: 1px 1px 3px black;
+	display: none;	
+}
+.cancleX{
+	background: url(../images/cancle.png) 50% 50% no-repeat ;
+	color:#fff;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	position: absolute;
+	top:0px;
+	right: 0px;
+	padding:10px; 
+}
+.votepage h3{
+	font-size: 25px;
+	color:#000;
+	padding: 20px;
+	text-align: center;	
+}
+#re{
+	position: absolute;
+	left: 70px;
+	bottom: 20px;
+	width: 70px;
+	height: 30px;
+	font-size: 15px;
+	font-family: Microsoft JhengHei;
+}
+#sub{
+	position: absolute;
+	right: 70px;
+	bottom: 20px;
+	width: 70px;
+	height: 30px;
+	font-size: 15px;
+	font-family: Microsoft JhengHei;
+
+}
+.footer{
+	width: 958px;
+	text-align: center;
+	margin-bottom: 20px;
+	position: absolute;
+	top:900px;
+	
+}
+.footer p{	
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+}
+
 
 
