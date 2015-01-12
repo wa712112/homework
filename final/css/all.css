@@ -43,7 +43,7 @@ table {
 	border-spacing: 0;
 }
 body{
-	background: url(../images/bg.png)  no-repeat ;
+	background: url(../images/bg.png)  repeat ;
 
 }
 .wrap{
