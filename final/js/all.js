@@ -87,12 +87,12 @@ $(document).ready(function(){
 				pet=5;
 			}
 			else if(_clickTab=="#tab6_v"){
-				_Tab="黃金獵犬";
+				_Tab="臘腸犬";
 				_img="tab6";
 				pet=6;
 			}
 			else if(_clickTab=="#tab7_v"){
-				_Tab="臘腸犬";
+				_Tab="黃金獵犬";
 				_img="tab7";
 				pet=7;
 			}
